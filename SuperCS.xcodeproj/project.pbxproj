@@ -14,6 +14,8 @@
 		494D3C2E1BCA8368004A288C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494D3C2C1BCA8368004A288C /* Main.storyboard */; };
 		494D3C391BCA8368004A288C /* SuperCSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494D3C381BCA8368004A288C /* SuperCSTests.m */; };
 		494D3C441BCA8368004A288C /* SuperCSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494D3C431BCA8368004A288C /* SuperCSUITests.m */; };
+		494D3C541BCA89AA004A288C /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494D3C521BCA89AA004A288C /* Status@2x.png */; settings = {ASSET_TAGS = (); }; };
+		494D3C551BCA89AA004A288C /* StatusHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494D3C531BCA89AA004A288C /* StatusHighlighted@2x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		494D3C3F1BCA8368004A288C /* SuperCSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		494D3C431BCA8368004A288C /* SuperCSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCSUITests.m; sourceTree = "<group>"; };
 		494D3C451BCA8368004A288C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494D3C521BCA89AA004A288C /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Status@2x.png"; sourceTree = "<group>"; };
+		494D3C531BCA89AA004A288C /* StatusHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StatusHighlighted@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		494D3C201BCA8368004A288C /* SuperCS */ = {
 			isa = PBXGroup;
 			children = (
+				494D3C511BCA8988004A288C /* img */,
 				494D3C211BCA8368004A288C /* AppDelegate.h */,
 				494D3C221BCA8368004A288C /* AppDelegate.m */,
 				494D3C271BCA8368004A288C /* ViewController.h */,
@@ -135,6 +140,15 @@
 				494D3C451BCA8368004A288C /* Info.plist */,
 			);
 			path = SuperCSUITests;
+			sourceTree = "<group>";
+		};
+		494D3C511BCA8988004A288C /* img */ = {
+			isa = PBXGroup;
+			children = (
+				494D3C521BCA89AA004A288C /* Status@2x.png */,
+				494D3C531BCA89AA004A288C /* StatusHighlighted@2x.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +256,8 @@
 			files = (
 				494D3C2B1BCA8368004A288C /* Assets.xcassets in Resources */,
 				494D3C2E1BCA8368004A288C /* Main.storyboard in Resources */,
+				494D3C551BCA89AA004A288C /* StatusHighlighted@2x.png in Resources */,
+				494D3C541BCA89AA004A288C /* Status@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +505,7 @@
 				494D3C4A1BCA8368004A288C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		494D3C4B1BCA8368004A288C /* Build configuration list for PBXNativeTarget "SuperCSTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +514,7 @@
 				494D3C4D1BCA8368004A288C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		494D3C4E1BCA8368004A288C /* Build configuration list for PBXNativeTarget "SuperCSUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +523,7 @@
 				494D3C501BCA8368004A288C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

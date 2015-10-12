@@ -10,6 +10,8 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property (retain, nonatomic) NSStatusItem *statusItem;
+@property (retain, nonatomic) NSPopover *popover;
 
 @end
 
