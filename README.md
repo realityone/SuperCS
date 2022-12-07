@@ -12,8 +12,10 @@ This project will help people like **@OuO** to free their left hand.
 
 ## Principle
 
-Hook the `Command+C` and `Command+S` event, repeat 50 times.(I guess repeat 50 times is enough to ensure this event has been triggered.`(*-ω-*)`)
+Hook the `Command+C` and `Command+S` event, repeat 5 times.(I guess repeat 5 times is enough to ensure this event has been triggered.`(*-ω-*)`)
+
+Stolen codes from ChatGPT.
 
 ## License
 
-MIT.
+WTFPL.
